@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utility.css">
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left">
+            <div class="close">
+                <img width="30px" class="invert" src="img/close.svg" alt="">
+            </div>
+            <div class="home bg-grey rounded m-1 p-1">
+                <div class="logo">
+                    <img class="invert" width="100" src="img/logo.svg" alt="">
+                </div>
+                <ul>
+                    <li><img class="invert" src="img/home.svg" alt="home">Home</li>
+                    <li><img class="invert" src="img/search.svg" alt="home">Search</li>
+                </ul>
+            </div>
+
+            <div class="library bg-grey rounded m-1 p-1">
+                <div class="heading">
+                    <img class="invert" src="img/playlist.svg" alt="playlist">
+                    <h2>Your Library</h2>
+                </div>
+                <div class="songList">
+                    <ul>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="footer">
+                <div><a href="https://www.spotify.com/in-en/legal/"><span>Legal</span></a></div>
+                <div><a href="https://www.spotify.com/in-en/safetyandprivacy/"><span>Safety &amp; Privacy
+                            Center</span></a></div>
+                <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                </div>
+                <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/"><span>Cookies</span></a></div>
+                <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"><span>About Ads</span></a>
+                </div>
+                <div><a href="https://www.spotify.com/in-en/accessibility/"><span>Accessibility</span></a></div>
+                <div><a draggable="false" href="https://www.spotify.com/legal/cookies-policy/" target="_blank"
+                        rel="noopener"><span>Cookies</span></a></div>
+            </div>
+        </div>
+        <div class="right border bg-grey">
+            <div class="header">
+                <div class="nav">
+                    <div class="hamburgerContainer">
+                        <img width="40px" class="hamburger" src="img/hamburger.svg" alt="">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                            color="#ffffff" fill="none">
+                            <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="currentColor"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                            color="#ffffff" fill="none">
+                            <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="currentColor"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="signupbtn">Sign up</button>
+                    <button class="loginbtn">Log in</button>
+                </div>
+            </div>
+
+            <div class="spotifyArtists">
+                <div class="popularArtists">
+                    <h1>Popular artists</h1>
+                </div>
+                <div class="showAll c-grey">
+                    <h3>Show all</h3>
+                </div>
+            </div>
+
+            <div class="cardContainer">
+                <div data-folder="ncs" class="card">
+                    <div class="playButton">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="48" height="48" fill="none">
+                            <rect x="0" y="0" width="32" height="32" fill="none" />
+                            <circle cx="16" cy="16" r="14" fill="#4CAF50" stroke="none" />
+                            <path
+                                d="M22.8906 16.846C22.5371 18.189 20.8667 19.138 17.5257 21.0361C14.296 22.8709 12.6812 23.7884 11.3798 23.4196C10.8418 23.2671 10.3516 22.9776 9.95624 22.5787C9 21.6139 9 19.7426 9 16C9 12.2574 9 10.3861 9.95624 9.42132C10.3516 9.02245 10.8418 8.73288 11.3798 8.58042C12.6812 8.21165 14.296 9.12907 17.5257 10.9639C20.8667 12.862 22.5371 13.811 22.8906 15.154C23.0365 15.7084 23.0365 16.2916 22.8906 16.846Z"
+                                fill="black" />
+                        </svg>
+                    </div>
+                    <img aria-hidden="false" draggable="false" loading="lazy"
+                        src="https://i.scdn.co/image/ab67616100005174b19af0ea736c6228d6eb539c" data-testid="card-image"
+                        alt=""
+                        class="mMx2LUixlnN_Fu45JpFB SKJSok3LfyedjZjujmFt yYflTYbufy7rATGQiZfq Yn2Ei5QZn19gria6LjZj">
+                    <h4>A.R. Rahman</h4>
+                    <p>Artist</p>
+                </div>
+                <div data-folder="ncs" class="card">
+                    <div class="playButton">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="48" height="48" fill="none">
+                            <rect x="0" y="0" width="32" height="32" fill="none" />
+                            <circle cx="16" cy="16" r="14" fill="#4CAF50" stroke="none" />
+                            <path
+                                d="M22.8906 16.846C22.5371 18.189 20.8667 19.138 17.5257 21.0361C14.296 22.8709 12.6812 23.7884 11.3798 23.4196C10.8418 23.2671 10.3516 22.9776 9.95624 22.5787C9 21.6139 9 19.7426 9 16C9 12.2574 9 10.3861 9.95624 9.42132C10.3516 9.02245 10.8418 8.73288 11.3798 8.58042C12.6812 8.21165 14.296 9.12907 17.5257 10.9639C20.8667 12.862 22.5371 13.811 22.8906 15.154C23.0365 15.7084 23.0365 16.2916 22.8906 16.846Z"
+                                fill="black" />
+                        </svg>
+                    </div>
+                    <img aria-hidden="false" draggable="false" loading="lazy"
+                        src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca" data-testid="card-image"
+                        alt=""
+                        class="mMx2LUixlnN_Fu45JpFB SKJSok3LfyedjZjujmFt yYflTYbufy7rATGQiZfq yOKoknIYYzAE90pe7_SE Yn2Ei5QZn19gria6LjZj">
+                    <h4>Pritam</h4>
+                    <p>Artist</p>
+                </div>
+                <div class="card">
+                    <div class="playButton">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="48" height="48" fill="none">
+                            <rect x="0" y="0" width="32" height="32" fill="none" />
+                            <circle cx="16" cy="16" r="14" fill="#4CAF50" stroke="none" />
+                            <path
+                                d="M22.8906 16.846C22.5371 18.189 20.8667 19.138 17.5257 21.0361C14.296 22.8709 12.6812 23.7884 11.3798 23.4196C10.8418 23.2671 10.3516 22.9776 9.95624 22.5787C9 21.6139 9 19.7426 9 16C9 12.2574 9 10.3861 9.95624 9.42132C10.3516 9.02245 10.8418 8.73288 11.3798 8.58042C12.6812 8.21165 14.296 9.12907 17.5257 10.9639C20.8667 12.862 22.5371 13.811 22.8906 15.154C23.0365 15.7084 23.0365 16.2916 22.8906 16.846Z"
+                                fill="black" />
+                        </svg>
+                    </div>
+                    <img aria-hidden="false" draggable="false" loading="lazy"
+                        src="https://i.scdn.co/image/ab67616100005174fc7c542c04b5f7dc8f1b1c16" data-testid="card-image"
+                        alt=""
+                        class="mMx2LUixlnN_Fu45JpFB SKJSok3LfyedjZjujmFt yYflTYbufy7rATGQiZfq Yn2Ei5QZn19gria6LjZj">
+                    <h4>Anirudh Ravichander</h4>
+                    <p>Artist</p>
+                </div>
+                <div class="card">
+                    <div class="playButton">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="48" height="48" fill="none">
+                            <rect x="0" y="0" width="32" height="32" fill="none" />
+                            <circle cx="16" cy="16" r="14" fill="#4CAF50" stroke="none" />
+                            <path
+                                d="M22.8906 16.846C22.5371 18.189 20.8667 19.138 17.5257 21.0361C14.296 22.8709 12.6812 23.7884 11.3798 23.4196C10.8418 23.2671 10.3516 22.9776 9.95624 22.5787C9 21.6139 9 19.7426 9 16C9 12.2574 9 10.3861 9.95624 9.42132C10.3516 9.02245 10.8418 8.73288 11.3798 8.58042C12.6812 8.21165 14.296 9.12907 17.5257 10.9639C20.8667 12.862 22.5371 13.811 22.8906 15.154C23.0365 15.7084 23.0365 16.2916 22.8906 16.846Z"
+                                fill="black" />
+                        </svg>
+                    </div>
+                    <img aria-hidden="false" draggable="false" loading="lazy"
+                        src="https://i.scdn.co/image/ab676161000051748de0e6e7e55d7773931ab7f4" data-testid="card-image"
+                        alt=""
+                        class="mMx2LUixlnN_Fu45JpFB SKJSok3LfyedjZjujmFt yYflTYbufy7rATGQiZfq Yn2Ei5QZn19gria6LjZj">
+                    <h4>Arijit Singh</h4>
+                    <p>Artist</p>
+                </div>
+
+                <div class="card">
+                    <div class="playButton">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="48" height="48" fill="none">
+                            <rect x="0" y="0" width="32" height="32" fill="none" />
+                            <circle cx="16" cy="16" r="14" fill="#4CAF50" stroke="none" />
+                            <path
+                                d="M22.8906 16.846C22.5371 18.189 20.8667 19.138 17.5257 21.0361C14.296 22.8709 12.6812 23.7884 11.3798 23.4196C10.8418 23.2671 10.3516 22.9776 9.95624 22.5787C9 21.6139 9 19.7426 9 16C9 12.2574 9 10.3861 9.95624 9.42132C10.3516 9.02245 10.8418 8.73288 11.3798 8.58042C12.6812 8.21165 14.296 9.12907 17.5257 10.9639C20.8667 12.862 22.5371 13.811 22.8906 15.154C23.0365 15.7084 23.0365 16.2916 22.8906 16.846Z"
+                                fill="black" />
+                        </svg>
+                    </div>
+                    <img aria-hidden="false" draggable="false" loading="lazy"
+                        src="https://i.scdn.co/image/ab67616100005174ea2b56271cf92bcff45c0ae9" data-testid="card-image"
+                        alt=""
+                        class="mMx2LUixlnN_Fu45JpFB SKJSok3LfyedjZjujmFt yYflTYbufy7rATGQiZfq Yn2Ei5QZn19gria6LjZj">
+                    <h4>Arijit Singh</h4>
+                    <p>Artist</p>
+                </div>
+            </div>
+            <div class="playbar">
+                <div class="seekbar">
+                    <div class="circle">
+
+                    </div>
+                </div>
+                <div class="aboveSeekBar">
+                    <div class="songinfo">
+
+                    </div>
+                    <div class="songbuttons">
+                        <img id="previous" class="invert" src="img/prevsong.svg" alt="">
+                        <img id="play" class="invert" src="img/play.svg" alt="">
+                        <img id="next" class="invert" src="img/nextsong.svg" alt="">
+                    </div>
+                    <div class="timevol">
+                        <div class="songtime">
+
+                        </div>
+                        <div class="volume">
+                            <img width="25px" class="invert" src="img/volume.svg" alt="">
+                            <div class="range">
+                                <input type="range" name="volume" id="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
